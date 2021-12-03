@@ -14,6 +14,18 @@ body{
   background-image: url(../imagenes/fondo-pagina.jpg);
 }
 
+/*" ANIMACION "*/
+
+.animacion-logo{
+  animation: bouncel .5s alternate infinite ease-in;
+}
+
+@keyframes bouncel{
+  0%{
+    transform: translateX(20%);
+  }
+}
+
 /*" MENU "*/
 
 .nav-menu{
