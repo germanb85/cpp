@@ -233,10 +233,16 @@ h2{
   grid-auto-rows: 420px;
   padding: 20px;
   grid-gap: 20px;
+  
 }
 
 .info-torneo{
   position: relative;
+}
+
+.info-torneo:hover{
+  transition: 1s;
+  transform:scale(1.1)
 }
 
 .info-imagen-torneo{
@@ -255,7 +261,6 @@ h2{
   margin: 0;
   padding: 10px;
   text-align: center;
-
   bottom: 200%;
   font-family: 'Roboto', sans-serif;
 }
