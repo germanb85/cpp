@@ -239,6 +239,12 @@ h2{
   position: relative;
 }
 
+.info-torneo:hover{
+  transition: 2s;
+  transform:scale(1.1)
+}
+
+
 .info-imagen-torneo{
   width: 100%;
   height: 100%;
@@ -255,7 +261,6 @@ h2{
   margin: 0;
   padding: 10px;
   text-align: center;
-
   bottom: 200%;
   font-family: 'Roboto', sans-serif;
 }
