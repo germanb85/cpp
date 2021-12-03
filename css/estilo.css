@@ -241,9 +241,10 @@ h2{
 }
 
 .info-torneo:hover{
-  transition: 1s;
+  transition: 2s;
   transform:scale(1.1)
 }
+
 
 .info-imagen-torneo{
   width: 100%;
